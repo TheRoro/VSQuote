@@ -2,7 +2,10 @@
   "name": "vsquote",
   "displayName": "VSQuote",
   "author": "Rodrigo Ramirez",
+  "publisher": "RodrigoRamirez",
   "description": "Inspirational Quotes for VSCode",
+  "icon": "images/VsQuoteIcon.png",
+  "repository": "https://github.com/TheRoro/VSQuote",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.59.0"
