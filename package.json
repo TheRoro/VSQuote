@@ -1,47 +1,47 @@
 {
-  "name": "vsquote",
-  "displayName": "VSQuote",
-  "author": "Rodrigo Ramirez",
-  "publisher": "RodrigoRamirez",
-  "description": "Inspirational Quotes for VSCode",
-  "icon": "images/VsQuoteIcon.png",
-  "repository": "https://github.com/TheRoro/VSQuote",
-  "version": "1.0.0",
-  "engines": {
-    "vscode": "^1.59.0"
-  },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onStartupFinished"
-  ],
-  "main": "./extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "vsquote.getQuote",
-        "title": "Get Quote"
-      }
-    ]
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "node ./test/runTest.js"
-  },
-  "devDependencies": {
-    "@types/glob": "^7.1.3",
-    "@types/mocha": "^8.2.2",
-    "@types/node": "14.x",
-    "@types/vscode": "^1.59.0",
-    "eslint": "^7.27.0",
-    "glob": "^7.1.7",
-    "mocha": "^8.4.0",
-    "typescript": "^4.3.2",
-    "vscode-test": "^1.5.2"
-  },
-  "dependencies": {
-    "axios": "^0.21.1"
-  }
+	"name": "vsquote",
+	"displayName": "VSQuote",
+	"author": "Rodrigo Ramirez",
+	"publisher": "RodrigoRamirez",
+	"description": "Inspirational Quotes for VSCode",
+	"icon": "https://raw.githubusercontent.com/TheRoro/VSQuote/main/images/VsQuoteIcon.png",
+	"repository": "https://github.com/TheRoro/VSQuote",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.59.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "vsquote.getQuote",
+				"title": "Get Quote"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "14.x",
+		"@types/vscode": "^1.59.0",
+		"eslint": "^7.27.0",
+		"glob": "^7.1.7",
+		"mocha": "^8.4.0",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"axios": "^0.21.1"
+	}
 }
