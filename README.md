@@ -1,10 +1,14 @@
 # VSQuote - Inspirational Quotes for VSCode
 
+![VSQuote Logo](https://raw.githubusercontent.com/TheRoro/VSQuote/main/images/VsQuoteIcon.png)
+
 VSQuote is a Visual Studio Code extension that provides you with inspirational quotes directly within your code editor. It fetches quotes from the Quote API every hour and displays them in your VSCode text editor.
 
 ## Features
 
 - **Inspirational Quotes:** Receive an inspirational quote from the Quote API every hour to keep you motivated and inspired while coding.
+
+![VSQuote Quote Example](https://raw.githubusercontent.com/TheRoro/VSQuote/main/images/QuoteExample.png)
 
 ## Extension Settings
 
@@ -14,9 +18,9 @@ No configurations are needed for this extension. It works seamlessly in the back
 
 Inspirational quotes appear every hour and can be dismissed using the 'X' or the smile button.
 
-### 1.0.0
+### 2.0.0
 
-- Initial release of VSQuote.
+- Update Logo and Improve README.md!
 
 ## Credits
 
@@ -42,11 +46,11 @@ VSQuote was developed using a range of technical skills and knowledge, including
 
 - **Random Quotes:** The extension randomly selects quotes from the API to provide users with diverse and inspiring messages.
 
+![VSQuote Get Quote Example](https://raw.githubusercontent.com/TheRoro/VSQuote/main/images/GetQuoteExample.png)
+
 ## Installation
 
 You can install VSQuote from the Visual Studio Code Extension Marketplace using the following link: [VSQuote Extension](https://marketplace.visualstudio.com/items?itemName=RodrigoRamirez.vsquote)
-
----
 
 Stay inspired while coding with VSQuote!
 
