@@ -1,9 +1,15 @@
 # Change Log
 
-All notable changes to the "vsquote" extension will be documented in this file.
+## 🚀 1.0.0 🚀
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### 💡 Features included in this release:
 
-## [Unreleased]
+⌛ Get a random motivational quote every hour while using Visual Studio Code.
+✨ Get a quote when using the command: `Get Quote` from the Command Palette.
 
-- Initial release
+## ⚡️ 2.0.0 ⚡️
+
+### 💡 Changes included in this release:
+
+🖼️ Improved color and size of the logo.
+📝 Updated description, features, details, and installation of the Extension on the README.md file.
