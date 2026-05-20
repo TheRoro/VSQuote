@@ -1,0 +1,330 @@
+[
+  {
+    "text": "ARE YOU KIDDING ME RIGHT NOW? You have been staring at that screen for 20 minutes. WRITE THE CODE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I did NOT raise you to be a console.log debugger. USE THE DEBUGGER.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "LOOK AT ME. Look at me. You are going to ship this today. Say it back to me.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Oh you are tired? YOU ARE TIRED? The code does not care if you are tired. GET UP.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I have seen INTERNS push to production with more confidence than you right now.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "What is this? WHAT IS THIS? A nested ternary? In MY codebase? Fix it. NOW.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You call that a commit message? My GRANDMOTHER writes better commit messages and she uses a typewriter.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "STOP. OVERTHINKING. Write the bad code first. We refactor LATER. MOVE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Every second you spend on Stack Overflow is a second you are not SHIPPING. Figure it out yourself.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I believe in you. I really do. But RIGHT NOW you are embarrassing both of us. LOCK IN.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You want to take a break? A BREAK? Did Messi take breaks? DID HE? No. Code.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "That PR has been open for THREE DAYS. THREE. DAYS. Merge it or close it. DECIDE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I am not mad. I am DISAPPOINTED. And also mad. Why is there no error handling?",
+    "author": "VSQuote"
+  },
+  {
+    "text": "AGAIN. Run it AGAIN. And this time WATCH the output instead of alt-tabbing to Twitter.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You think the senior devs were born writing clean code? NO. They wrote garbage and LEARNED. Now WRITE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Where is the ENERGY? Where is the PASSION? You are typing like you do not WANT this deployment.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "GET OFF YOUR PHONE. The code is RIGHT THERE. It is not going to write itself. TRUST ME I CHECKED.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I swear on my life if you copy paste from ChatGPT without reading it one more time...",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You have the AUDACITY to push without running tests? In THIS economy?",
+    "author": "VSQuote"
+  },
+  {
+    "text": "FOCUS. I need you to FOCUS. Close the 47 browser tabs. YES ALL OF THEM.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Do you hear that? That silence? That is your TODO list SCREAMING at you. GET TO WORK.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "OH SO NOW you want to refactor? NOW? When we ship in 2 hours? ABSOLUTELY NOT. Ship first. Cry later.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I need MORE from you. I need INTENSITY. Code like your rent depends on it. BECAUSE IT DOES.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You are ONE feature away from greatness and you want to scroll Reddit? UNBELIEVABLE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "That bug has been open since LAST SPRINT. It is MOCKING you. Go DESTROY it.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "HANDS ON KEYBOARD. I want to hear those keys CLICKING. Like your life depends on it.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You know what winners do? They write tests FIRST. Are you a winner? PROVE IT.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I saw that yawn. I SAW IT. You think Ronaldo yawns before a free kick? WAKE UP.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "This is not a SUGGESTION. This is an ORDER. Close Slack. Open the terminal. DEPLOY.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Your code review comments say it all. Approved with no comments. THAT MEANS NOBODY READ IT. Go back.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "FASTER. I need you typing FASTER. No not faster with more typos. Faster AND correct. FIGURE IT OUT.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You are BETTER than this. I have SEEN you write clean code. What happened? WHERE DID THAT PERSON GO?",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I am going to count to three and when I am done that function better have a return statement. ONE...",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Did you just write a 200-line function? DID YOU? Break it up. NOW. I will WAIT.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You call yourself a developer? Then DEVELOP something. Right now. This instant. GO.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "NO EXCUSES. I do not want to hear about technical debt. I want to hear keyboard sounds. TYPE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "The sprint ends FRIDAY. It is WEDNESDAY. You have three tickets open. MOVE MOVE MOVE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I gave you ONE task. ONE. And you opened a side quest? This is not Zelda. STAY ON TARGET.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Oh the build is broken? Then FIX IT. Do not Slack about it. Do not create a ticket. FIX. IT. NOW.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You want a gold star? You want praise? Ship the feature and THEN we celebrate. Not BEFORE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I need you to channel the energy of someone whose production server just went down at 3 AM. THAT urgency. ALL THE TIME.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "STOP reading documentation and START writing code. You have read enough. You KNOW enough. GO.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "That semicolon is not going to place itself. MOVE YOUR FINGERS.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You have more potential in your LEFT PINKY than most devs have in their whole body. USE IT.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I am not yelling. This is my NORMAL voice. My yelling voice is for when you push to main without a PR.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "WATER BREAK IS OVER. Back to the keyboard. We have features to ship and bugs to crush.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "What do we say to imposter syndrome? NOT TODAY. Now CODE like you BELONG here. Because you DO.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Every great developer was once where you are. Stuck. Confused. But they did not QUIT. Neither will YOU.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You think I am being hard on you? The COMPILER is harder. The USERS are harder. I am preparing you. NOW GO.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "That is IT. I have had it. We are doing a CODE SPRINT. Right now. 25 minutes. NO DISTRACTIONS. START.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You know what that error message is? It is a CHALLENGE. And you are going to DOMINATE it.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I see you reaching for that coffee. NO. You do not need caffeine. You need DISCIPLINE. Code first. Coffee is the reward.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "LISTEN TO ME. You are closer than you think. ONE more function. ONE more test. Then we WIN. Push through.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You left a TODO comment in production code? A TODO? That is a PROMISE you made to yourself. KEEP IT. NOW.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Nobody is coming to save you. Not the tech lead. Not Google. Just YOU and your keyboard. GET IT DONE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "DO NOT push that code without a test. Do NOT. I will know. I ALWAYS know.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You have the skills. You have the tools. The only thing missing is you DOING THE WORK. So DO it.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "BEAUTIFUL. That last commit was BEAUTIFUL. Now do it again. AND AGAIN. Until the feature is DONE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Less thinking. More typing. The code does not have to be perfect. It has to EXIST first. WRITE IT.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You want to be a 10x developer? Step one: STOP CONTEXT SWITCHING. Pick ONE thing. FINISH it. NEXT.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Why are you making this harder than it needs to be? Start simple. Build up. MOVE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I need COMMITMENT. Not I will try. Not maybe tomorrow. RIGHT NOW. This sprint. This HOUR.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "That variable name is TERRIBLE and you KNOW it. Rename it. Take pride in your work. AGAIN.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You are in the ZONE. I can see it. Do NOT stop. Do NOT check your phone. KEEP GOING.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Every line of code you write today is an investment in TOMORROW. So INVEST MORE. Type FASTER.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "The team is COUNTING on you. Do not let them down. Do not let YOURSELF down. DELIVER.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You just fixed that bug in 5 minutes. FIVE MINUTES. See what happens when you FOCUS? DO IT AGAIN.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I have coached developers for YEARS and you have something special. But SPECIAL does not ship code. EFFORT does. GO.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "That is not a blocker. That is an EXCUSE. Find a workaround. Find ANYTHING. But do NOT stop.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You looked up from your screen. WHY? Is the answer on the CEILING? NO. It is in the CODE. LOOK DOWN.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Lunch is in 30 minutes. Can you finish this function in 30 minutes? YES YOU CAN. PROVE ME RIGHT.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You are about to give up. I can SEE it in your face. DO. NOT. You are TWO lines away. FINISH.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Forget clean code for now. Write WORKING code. We will make it pretty LATER. Right now we SURVIVE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I want to see a green CI pipeline by end of day. GREEN. Not yellow. Not red. GREEN. Make it happen.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You are telling me you spent an hour on CSS and the button is STILL not centered? LET ME SEE THAT. Flexbox. DONE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Stand up. Stretch. Sit back down. And CODE LIKE YOU HAVE NEVER CODED BEFORE.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "Today is YOUR day. I can feel it. You are going to write the best code of your LIFE. NOW PROVE IT.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "THREE merge conflicts? THREE? You should have pulled this MORNING. Fix them. LEARN from this.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I will NOT accept anything less than your BEST today. And your best is INCREDIBLE. So SHOW ME.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "EYES ON THE SCREEN. Fingers on the keys. Brain in the zone. LET US GO.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "You think the deadline is going to move for you? It is NOT. The only thing that moves is YOUR OUTPUT. INCREASE IT.",
+    "author": "VSQuote"
+  },
+  {
+    "text": "I am proud of you. But I will be PROUDER when you finish. So FINISH.",
+    "author": "VSQuote"
+  }
+]

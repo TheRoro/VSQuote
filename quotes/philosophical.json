@@ -1,0 +1,606 @@
+[
+  {
+    "text": "If a tree falls in a forest and no one is around to hear it, does it make a sound?",
+    "author": "George Berkeley"
+  },
+  {
+    "text": "Is the ship that has had all of its parts replaced still the same ship?",
+    "author": "Ship of Theseus"
+  },
+  {
+    "text": "Can you step in the same river twice?",
+    "author": "Heraclitus"
+  },
+  {
+    "text": "What is the sound of one hand clapping?",
+    "author": "Zen Koan"
+  },
+  {
+    "text": "If you could live your life over again in exact repetition for eternity, would you choose to?",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "text": "Is free will real, or is every decision predetermined by prior causes?",
+    "author": "Determinism Paradox"
+  },
+  {
+    "text": "How do you know you are not dreaming right now?",
+    "author": "Rene Descartes"
+  },
+  {
+    "text": "If you replaced every neuron in your brain one by one with silicon chips, at what point do you stop being you?",
+    "author": "Thought Experiment"
+  },
+  {
+    "text": "Does the universe exist if no one is there to observe it?",
+    "author": "Quantum Philosophy"
+  },
+  {
+    "text": "Can something come from nothing?",
+    "author": "Parmenides"
+  },
+  {
+    "text": "What came first: the rules of mathematics, or the universe that follows them?",
+    "author": "Philosophy of Math"
+  },
+  {
+    "text": "If you could know the exact date of your death, would you want to?",
+    "author": "Thought Experiment"
+  },
+  {
+    "text": "Is it possible to have a thought without language?",
+    "author": "Ludwig Wittgenstein"
+  },
+  {
+    "text": "Are we the same person we were ten years ago?",
+    "author": "Identity Paradox"
+  },
+  {
+    "text": "If everyone believed something false, would it become true?",
+    "author": "Social Epistemology"
+  },
+  {
+    "text": "The only thing I know is that I know nothing.",
+    "author": "Socrates"
+  },
+  {
+    "text": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "text": "Man is condemned to be free; because once thrown into the world, he is responsible for everything he does.",
+    "author": "Jean-Paul Sartre"
+  },
+  {
+    "text": "The unexamined life is not worth living.",
+    "author": "Socrates"
+  },
+  {
+    "text": "One must imagine Sisyphus happy.",
+    "author": "Albert Camus"
+  },
+  {
+    "text": "To be is to be perceived.",
+    "author": "George Berkeley"
+  },
+  {
+    "text": "The limits of my language mean the limits of my world.",
+    "author": "Ludwig Wittgenstein"
+  },
+  {
+    "text": "Whereof one cannot speak, thereof one must be silent.",
+    "author": "Ludwig Wittgenstein"
+  },
+  {
+    "text": "Hell is other people.",
+    "author": "Jean-Paul Sartre"
+  },
+  {
+    "text": "Existence precedes essence.",
+    "author": "Jean-Paul Sartre"
+  },
+  {
+    "text": "God is dead. God remains dead. And we have killed him.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "text": "Is it better to be a human being dissatisfied or a pig satisfied?",
+    "author": "John Stuart Mill"
+  },
+  {
+    "text": "What is rational is actual and what is actual is rational.",
+    "author": "Georg Hegel"
+  },
+  {
+    "text": "The life of man is solitary, poor, nasty, brutish, and short.",
+    "author": "Thomas Hobbes"
+  },
+  {
+    "text": "We live in the best of all possible worlds.",
+    "author": "Gottfried Leibniz"
+  },
+  {
+    "text": "Can an omnipotent being create a stone so heavy that even they cannot lift it?",
+    "author": "Omnipotence Paradox"
+  },
+  {
+    "text": "If we simulate a brain perfectly in a computer, is it conscious?",
+    "author": "Philosophy of Mind"
+  },
+  {
+    "text": "Would you push one person off a bridge to save five others?",
+    "author": "Trolley Problem"
+  },
+  {
+    "text": "Is there a difference between not doing something and choosing not to do it?",
+    "author": "Ethics of Inaction"
+  },
+  {
+    "text": "Can a machine ever truly understand, or does it only simulate understanding?",
+    "author": "John Searle"
+  },
+  {
+    "text": "If you teleport, does the original you die while a copy lives on?",
+    "author": "Teleportation Paradox"
+  },
+  {
+    "text": "Is time real, or is it a construct of human perception?",
+    "author": "Philosophy of Time"
+  },
+  {
+    "text": "What is it like to be a bat?",
+    "author": "Thomas Nagel"
+  },
+  {
+    "text": "Can you truly be altruistic, or is every good deed secretly selfish?",
+    "author": "Psychological Egoism"
+  },
+  {
+    "text": "If the universe is infinite, does everything that can happen eventually happen?",
+    "author": "Infinite Monkey Theorem"
+  },
+  {
+    "text": "Is beauty in the eye of the beholder, or does it exist independently?",
+    "author": "Aesthetics"
+  },
+  {
+    "text": "If your memories were implanted, would your life still be meaningful?",
+    "author": "Memory Philosophy"
+  },
+  {
+    "text": "Does absolute power corrupt absolutely, or does it reveal who you already were?",
+    "author": "Power Paradox"
+  },
+  {
+    "text": "Are numbers discovered or invented?",
+    "author": "Philosophy of Mathematics"
+  },
+  {
+    "text": "Is silence a sound?",
+    "author": "John Cage"
+  },
+  {
+    "text": "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself.",
+    "author": "Carl Sagan"
+  },
+  {
+    "text": "In an infinite universe, the one thing that cannot be made is meaning. That is something only living beings can do.",
+    "author": "Terry Pratchett"
+  },
+  {
+    "text": "We are the universe experiencing itself.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "You are not a drop in the ocean. You are the entire ocean in a drop.",
+    "author": "Rumi"
+  },
+  {
+    "text": "The menu is not the meal.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "Trying to define yourself is like trying to bite your own teeth.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "Muddy water is best cleared by leaving it alone.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "You cannot see your reflection in boiling water. Similarly, you cannot see truth in a state of anger.",
+    "author": "Ancient Proverb"
+  },
+  {
+    "text": "The fish trap exists because of the fish. Once you have gotten the fish you can forget the trap.",
+    "author": "Zhuangzi"
+  },
+  {
+    "text": "If you correct your mind, the rest of your life will fall into place.",
+    "author": "Lao Tzu"
+  },
+  {
+    "text": "When I let go of what I am, I become what I might be.",
+    "author": "Lao Tzu"
+  },
+  {
+    "text": "The Tao that can be told is not the eternal Tao.",
+    "author": "Lao Tzu"
+  },
+  {
+    "text": "Between stimulus and response there is a space. In that space is our power to choose our response.",
+    "author": "Viktor Frankl"
+  },
+  {
+    "text": "Those who have a why to live can bear with almost any how.",
+    "author": "Viktor Frankl"
+  },
+  {
+    "text": "Everything can be taken from a man but one thing: the last of the human freedoms — to choose one is attitude in any given set of circumstances.",
+    "author": "Viktor Frankl"
+  },
+  {
+    "text": "What if this life is the afterlife of somewhere else?",
+    "author": "Thought Experiment"
+  },
+  {
+    "text": "If you had no memory of yesterday, would you still be you?",
+    "author": "Identity Philosophy"
+  },
+  {
+    "text": "Does a copy of you have the same rights as you?",
+    "author": "Clone Ethics"
+  },
+  {
+    "text": "If the universe had no observers, would it still exist?",
+    "author": "Quantum Philosophy"
+  },
+  {
+    "text": "Can a thought exist without a thinker?",
+    "author": "Philosophy of Mind"
+  },
+  {
+    "text": "Is randomness real, or do we just lack information?",
+    "author": "Determinism"
+  },
+  {
+    "text": "If every atom in your body is replaced over seven years, what makes you continuously you?",
+    "author": "Identity Paradox"
+  },
+  {
+    "text": "What if the color you call blue looks completely different to someone else?",
+    "author": "Qualia Problem"
+  },
+  {
+    "text": "Are we living in a simulation? Would it matter if we were?",
+    "author": "Simulation Theory"
+  },
+  {
+    "text": "Can something be true if no one believes it?",
+    "author": "Epistemology"
+  },
+  {
+    "text": "Is morality invented or discovered?",
+    "author": "Meta-Ethics"
+  },
+  {
+    "text": "If you could erase one memory, would you? Should you?",
+    "author": "Memory Ethics"
+  },
+  {
+    "text": "Does infinity actually exist, or is it just a concept?",
+    "author": "Philosophy of Mathematics"
+  },
+  {
+    "text": "What if consciousness is the universe experiencing itself?",
+    "author": "Panpsychism"
+  },
+  {
+    "text": "If artificial intelligence becomes conscious, is turning it off murder?",
+    "author": "AI Ethics"
+  },
+  {
+    "text": "Can you choose your beliefs, or do they choose you?",
+    "author": "Doxastic Voluntarism"
+  },
+  {
+    "text": "Is the self an illusion created by the brain?",
+    "author": "Neurophilosophy"
+  },
+  {
+    "text": "What is more real: the physical world or the world of ideas?",
+    "author": "Plato"
+  },
+  {
+    "text": "If you knew everything, would life still have meaning?",
+    "author": "Omniscience Paradox"
+  },
+  {
+    "text": "Can you step outside your own perspective, or is objectivity impossible?",
+    "author": "Perspectivism"
+  },
+  {
+    "text": "We are such stuff as dreams are made on, and our little life is rounded with a sleep.",
+    "author": "William Shakespeare"
+  },
+  {
+    "text": "Is suffering necessary for happiness to have meaning?",
+    "author": "Existentialism"
+  },
+  {
+    "text": "Do we see reality as it is, or only a useful fiction?",
+    "author": "Kant"
+  },
+  {
+    "text": "What if every choice creates a universe where you made the other choice?",
+    "author": "Many-Worlds Theory"
+  },
+  {
+    "text": "Is it ethical to be happy in a world full of suffering?",
+    "author": "Moral Philosophy"
+  },
+  {
+    "text": "Does language shape thought, or does thought shape language?",
+    "author": "Sapir-Whorf Hypothesis"
+  },
+  {
+    "text": "What is the relationship between the map and the territory?",
+    "author": "Alfred Korzybski"
+  },
+  {
+    "text": "If we met aliens, would we even recognize them as alive?",
+    "author": "Philosophy of Biology"
+  },
+  {
+    "text": "The eye sees only what the mind is prepared to comprehend.",
+    "author": "Henri Bergson"
+  },
+  {
+    "text": "Are we free, or are we just unaware of the forces that control us?",
+    "author": "Baruch Spinoza"
+  },
+  {
+    "text": "Reality is merely an illusion, albeit a very persistent one.",
+    "author": "Albert Einstein"
+  },
+  {
+    "text": "The map is not the territory.",
+    "author": "Alfred Korzybski"
+  },
+  {
+    "text": "Does the present moment actually exist, or is it always becoming the past?",
+    "author": "Philosophy of Time"
+  },
+  {
+    "text": "If happiness is the goal, is ignorance better than knowledge?",
+    "author": "Epistemic Ethics"
+  },
+  {
+    "text": "Do we create meaning, or do we discover it?",
+    "author": "Existentialism"
+  },
+  {
+    "text": "Is the examined life worth the anxiety it creates?",
+    "author": "Modern Stoicism"
+  },
+  {
+    "text": "What if progress is just movement, not improvement?",
+    "author": "Social Philosophy"
+  },
+  {
+    "text": "Could a sufficiently advanced AI have a soul?",
+    "author": "Philosophy of AI"
+  },
+  {
+    "text": "Is privacy a right or a privilege?",
+    "author": "Political Philosophy"
+  },
+  {
+    "text": "When does a collection of parts become a whole?",
+    "author": "Mereology"
+  },
+  {
+    "text": "Life is not a problem to be solved, but a reality to be experienced.",
+    "author": "Soren Kierkegaard"
+  },
+  {
+    "text": "Anxiety is the dizziness of freedom.",
+    "author": "Soren Kierkegaard"
+  },
+  {
+    "text": "People demand freedom of speech as a compensation for the freedom of thought which they seldom use.",
+    "author": "Soren Kierkegaard"
+  },
+  {
+    "text": "The most common form of despair is not being who you are.",
+    "author": "Soren Kierkegaard"
+  },
+  {
+    "text": "Science is organized knowledge. Wisdom is organized life.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "text": "Happiness is not an ideal of reason, but of imagination.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "text": "Out of the crooked timber of humanity, no straight thing was ever made.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "text": "Two things fill the mind with awe: the starry heavens above and the moral law within.",
+    "author": "Immanuel Kant"
+  },
+  {
+    "text": "He who thinks great thoughts, often makes great errors.",
+    "author": "Martin Heidegger"
+  },
+  {
+    "text": "The most thought-provoking thing in our thought-provoking time is that we are still not thinking.",
+    "author": "Martin Heidegger"
+  },
+  {
+    "text": "Every man takes the limits of his own field of vision for the limits of the world.",
+    "author": "Arthur Schopenhauer"
+  },
+  {
+    "text": "Talent hits a target no one else can hit. Genius hits a target no one else can see.",
+    "author": "Arthur Schopenhauer"
+  },
+  {
+    "text": "All truth passes through three stages. First, it is ridiculed. Second, it is violently opposed. Third, it is accepted as being self-evident.",
+    "author": "Arthur Schopenhauer"
+  },
+  {
+    "text": "The world is my representation.",
+    "author": "Arthur Schopenhauer"
+  },
+  {
+    "text": "Loneliness does not come from having no people around you, but from being unable to communicate the things that seem important to you.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "Until you make the unconscious conscious, it will direct your life and you will call it fate.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "Who looks outside, dreams; who looks inside, awakes.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "Everything that irritates us about others can lead us to an understanding of ourselves.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "Your visions will become clear only when you can look into your own heart.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "I am not what happened to me, I am what I choose to become.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "The pendulum of the mind alternates between sense and nonsense, not between right and wrong.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "Thinking is difficult, that is why most people judge.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "What you resist, persists.",
+    "author": "Carl Jung"
+  },
+  {
+    "text": "Man suffers only because he takes seriously what the gods made for fun.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "The meaning of life is just to be alive. It is so plain and so obvious and so simple.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "No valid plans for the future can be made by those who have no capacity for living now.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "Every intelligent individual wants to know what makes him tick, and yet is at once fascinated and frustrated by the fact that oneself is the most difficult of all things to know.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "Problems that remain persistently insoluble should always be suspected as questions asked in the wrong way.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "This is the real secret of life — to be completely engaged with what you are doing in the here and now.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "Technology is destructive only in the hands of people who do not realize that they are one and the same process as the universe.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "To have faith is to trust yourself to the water. When you swim you do not grab hold of the water, because if you do you will sink.",
+    "author": "Alan Watts"
+  },
+  {
+    "text": "Life and death are of supreme importance. Time swiftly passes by and opportunity is lost.",
+    "author": "Dogen Zenji"
+  },
+  {
+    "text": "If you want to travel the Way of Buddhas and Zen masters, then expect nothing, seek nothing, and grasp nothing.",
+    "author": "Dogen Zenji"
+  },
+  {
+    "text": "Do not follow the ideas of others, but learn to listen to the voice within yourself.",
+    "author": "Dogen Zenji"
+  },
+  {
+    "text": "To study the self is to forget the self. To forget the self is to be enlightened by the ten thousand things.",
+    "author": "Dogen Zenji"
+  },
+  {
+    "text": "Before enlightenment, chop wood, carry water. After enlightenment, chop wood, carry water.",
+    "author": "Zen Proverb"
+  },
+  {
+    "text": "The obstacle is not in the way. It is the way.",
+    "author": "Zen Proverb"
+  },
+  {
+    "text": "When you get to the top of the mountain, keep climbing.",
+    "author": "Zen Proverb"
+  },
+  {
+    "text": "Let go, or be dragged.",
+    "author": "Zen Proverb"
+  },
+  {
+    "text": "The quieter you become, the more you can hear.",
+    "author": "Ram Dass"
+  },
+  {
+    "text": "Be here now.",
+    "author": "Ram Dass"
+  },
+  {
+    "text": "We are all just walking each other home.",
+    "author": "Ram Dass"
+  },
+  {
+    "text": "Suffering is part of our training program for becoming wise.",
+    "author": "Ram Dass"
+  },
+  {
+    "text": "The question is not what you look at, but what you see.",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "text": "Rather than love, than money, than fame, give me truth.",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "text": "Not until we are lost do we begin to understand ourselves.",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "text": "Things do not change; we change.",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "text": "What is essential is invisible to the eye.",
+    "author": "Antoine de Saint-Exupery"
+  },
+  {
+    "text": "Grown-ups never understand anything by themselves, and it is tiresome for children to be always and forever explaining things to them.",
+    "author": "Antoine de Saint-Exupery"
+  }
+]

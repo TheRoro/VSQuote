@@ -3,12 +3,12 @@
 	"displayName": "VSQuote",
 	"author": "Rodrigo Ramirez",
 	"publisher": "RodrigoRamirez",
-	"description": "Inspirational Quotes for VSCode",
+	"description": "Unhinged quotes for your coding sessions. Motivational, funny, or chaotic — you choose the vibe.",
 	"icon": "images/VsQuoteIcon.png",
 	"repository": "https://github.com/TheRoro/VSQuote",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"engines": {
-		"vscode": "^1.59.0"
+		"vscode": "^1.74.0"
 	},
 	"categories": [
 		"Other"
@@ -23,7 +23,63 @@
 				"command": "vsquote.getQuote",
 				"title": "Get Quote"
 			}
-		]
+		],
+		"configuration": {
+			"title": "VSQuote",
+			"properties": {
+				"vsquote.enabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable or disable VSQuote. When disabled, no quotes will appear."
+				},
+				"vsquote.interval": {
+					"type": "string",
+					"default": "60",
+					"enum": [
+						"30",
+						"60",
+						"120",
+						"360",
+						"720",
+						"1440"
+					],
+					"enumItemLabels": [
+						"Every 30 minutes",
+						"Every 1 hour",
+						"Every 2 hours",
+						"Every 6 hours",
+						"Every 12 hours",
+						"Every 24 hours"
+					],
+					"description": "How often to show an inspirational quote."
+				},
+				"vsquote.mode": {
+					"type": "string",
+					"default": "genz",
+					"enum": [
+						"genz",
+						"funny",
+						"hype",
+						"inspirational",
+						"stoic",
+						"philosophical",
+						"affirmations",
+						"all"
+					],
+					"enumItemLabels": [
+						"Gen Z",
+						"Funny",
+						"Hype",
+						"Inspirational",
+						"Stoic",
+						"Philosophical",
+						"Affirmations",
+						"All (Random Mix)"
+					],
+					"description": "The type of quotes to display."
+				}
+			}
+		}
 	},
 	"scripts": {
 		"lint": "eslint .",
@@ -31,17 +87,9 @@
 		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/glob": "^7.1.3",
-		"@types/mocha": "^8.2.2",
-		"@types/node": "14.x",
-		"@types/vscode": "^1.59.0",
-		"eslint": "^7.27.0",
-		"glob": "^7.1.7",
-		"mocha": "^10.0.0",
-		"typescript": "^4.3.2",
-		"vscode-test": "^1.5.2"
-	},
-	"dependencies": {
-		"axios": "^0.21.1"
+		"@types/node": "18.x",
+		"@types/vscode": "^1.74.0",
+		"eslint": "^8.56.0",
+		"@vscode/test-electron": "^2.3.8"
 	}
 }

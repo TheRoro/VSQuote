@@ -1,0 +1,802 @@
+[
+  {
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs"
+  },
+  {
+    "text": "Code is like humor. When you have to explain it, it's bad.",
+    "author": "Cory House"
+  },
+  {
+    "text": "First, solve the problem. Then, write the code.",
+    "author": "John Johnson"
+  },
+  {
+    "text": "Experience is the name everyone gives to their mistakes.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "In order to be irreplaceable, one must always be different.",
+    "author": "Coco Chanel"
+  },
+  {
+    "text": "Java is to JavaScript what car is to carpet.",
+    "author": "Chris Heilmann"
+  },
+  {
+    "text": "Knowledge is power.",
+    "author": "Francis Bacon"
+  },
+  {
+    "text": "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code.",
+    "author": "Dan Salomon"
+  },
+  {
+    "text": "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.",
+    "author": "Antoine de Saint-Exupery"
+  },
+  {
+    "text": "Talk is cheap. Show me the code.",
+    "author": "Linus Torvalds"
+  },
+  {
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "author": "Harold Abelson"
+  },
+  {
+    "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "author": "Martin Fowler"
+  },
+  {
+    "text": "The best error message is the one that never shows up.",
+    "author": "Thomas Fuchs"
+  },
+  {
+    "text": "The most disastrous thing that you can ever learn is your first programming language.",
+    "author": "Alan Kay"
+  },
+  {
+    "text": "Simplicity is the soul of efficiency.",
+    "author": "Austin Freeman"
+  },
+  {
+    "text": "Before software can be reusable it first has to be usable.",
+    "author": "Ralph Johnson"
+  },
+  {
+    "text": "Make it work, make it right, make it fast.",
+    "author": "Kent Beck"
+  },
+  {
+    "text": "The function of good software is to make the complex appear to be simple.",
+    "author": "Grady Booch"
+  },
+  {
+    "text": "It's not a bug; it's an undocumented feature.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight.",
+    "author": "Bill Gates"
+  },
+  {
+    "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "author": "Chinese Proverb"
+  },
+  {
+    "text": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "text": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius"
+  },
+  {
+    "text": "Everything you've ever wanted is on the other side of fear.",
+    "author": "George Addair"
+  },
+  {
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill"
+  },
+  {
+    "text": "Strive not to be a success, but rather to be of value.",
+    "author": "Albert Einstein"
+  },
+  {
+    "text": "The mind is everything. What you think you become.",
+    "author": "Buddha"
+  },
+  {
+    "text": "I have not failed. I've just found 10,000 ways that won't work.",
+    "author": "Thomas Edison"
+  },
+  {
+    "text": "A person who never made a mistake never tried anything new.",
+    "author": "Albert Einstein"
+  },
+  {
+    "text": "Your time is limited, don't waste it living someone else's life.",
+    "author": "Steve Jobs"
+  },
+  {
+    "text": "The only impossible journey is the one you never begin.",
+    "author": "Tony Robbins"
+  },
+  {
+    "text": "What we fear of doing most is usually what we most need to do.",
+    "author": "Tim Ferriss"
+  },
+  {
+    "text": "If you're going through hell, keep going.",
+    "author": "Winston Churchill"
+  },
+  {
+    "text": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "text": "Whether you think you can or you think you can't, you're right.",
+    "author": "Henry Ford"
+  },
+  {
+    "text": "Act as if what you do makes a difference. It does.",
+    "author": "William James"
+  },
+  {
+    "text": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain"
+  },
+  {
+    "text": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "text": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson"
+  },
+  {
+    "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
+    "author": "C.S. Lewis"
+  },
+  {
+    "text": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney"
+  },
+  {
+    "text": "If you want to lift yourself up, lift up someone else.",
+    "author": "Booker T. Washington"
+  },
+  {
+    "text": "Creativity is intelligence having fun.",
+    "author": "Albert Einstein"
+  },
+  {
+    "text": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky"
+  },
+  {
+    "text": "I think, therefore I am.",
+    "author": "Rene Descartes"
+  },
+  {
+    "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "text": "In the middle of every difficulty lies opportunity.",
+    "author": "Albert Einstein"
+  },
+  {
+    "text": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon"
+  },
+  {
+    "text": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs"
+  },
+  {
+    "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "text": "Debugging is twice as hard as writing the code in the first place.",
+    "author": "Brian Kernighan"
+  },
+  {
+    "text": "Weeks of coding can save you hours of planning.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "One of my most productive days was throwing away 1,000 lines of code.",
+    "author": "Ken Thompson"
+  },
+  {
+    "text": "Deleted code is debugged code.",
+    "author": "Jeff Sickel"
+  },
+  {
+    "text": "If debugging is the process of removing software bugs, then programming must be the process of putting them in.",
+    "author": "Edsger Dijkstra"
+  },
+  {
+    "text": "The computer was born to solve problems that did not exist before.",
+    "author": "Bill Gates"
+  },
+  {
+    "text": "Walking on water and developing software from a specification are easy if both are frozen.",
+    "author": "Edward V. Berard"
+  },
+  {
+    "text": "Software is like entropy: it is difficult to grasp, weighs nothing, and obeys the second law of thermodynamics.",
+    "author": "Norman Augustine"
+  },
+  {
+    "text": "There are two ways to write error-free programs; only the third one works.",
+    "author": "Alan Perlis"
+  },
+  {
+    "text": "The best thing about a boolean is even if you are wrong, you are only off by a bit.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Without requirements or design, programming is the art of adding bugs to an empty text file.",
+    "author": "Louis Srygley"
+  },
+  {
+    "text": "Programming isn't about what you know; it's about what you can figure out.",
+    "author": "Chris Pine"
+  },
+  {
+    "text": "The most important property of a program is whether it accomplishes the intention of its user.",
+    "author": "C.A.R. Hoare"
+  },
+  {
+    "text": "No matter how slow you are writing clean code, you will always be slower if you make a mess.",
+    "author": "Uncle Bob Martin"
+  },
+  {
+    "text": "The only way to learn a new programming language is by writing programs in it.",
+    "author": "Dennis Ritchie"
+  },
+  {
+    "text": "A language that doesn't affect the way you think about programming is not worth knowing.",
+    "author": "Alan Perlis"
+  },
+  {
+    "text": "Don't comment bad code — rewrite it.",
+    "author": "Brian Kernighan"
+  },
+  {
+    "text": "Good code is its own best documentation.",
+    "author": "Steve McConnell"
+  },
+  {
+    "text": "Fix the cause, not the symptom.",
+    "author": "Steve Maguire"
+  },
+  {
+    "text": "Optimism is an occupational hazard of programming: feedback is the treatment.",
+    "author": "Kent Beck"
+  },
+  {
+    "text": "Simplicity is prerequisite for reliability.",
+    "author": "Edsger Dijkstra"
+  },
+  {
+    "text": "When in doubt, use brute force.",
+    "author": "Ken Thompson"
+  },
+  {
+    "text": "You can't have great software without a great team.",
+    "author": "Jim McCarthy"
+  },
+  {
+    "text": "Done is better than perfect.",
+    "author": "Sheryl Sandberg"
+  },
+  {
+    "text": "Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.",
+    "author": "Mark Zuckerberg"
+  },
+  {
+    "text": "Innovation distinguishes between a leader and a follower.",
+    "author": "Steve Jobs"
+  },
+  {
+    "text": "The advance of technology is based on making it fit in so that you don't really even notice it.",
+    "author": "Bill Gates"
+  },
+  {
+    "text": "What one programmer can do in one month, two programmers can do in two months.",
+    "author": "Fred Brooks"
+  },
+  {
+    "text": "People think that computer science is the art of geniuses but the actual reality is the opposite.",
+    "author": "Donald Knuth"
+  },
+  {
+    "text": "Programming is the art of telling another human being what one wants the computer to do.",
+    "author": "Donald Knuth"
+  },
+  {
+    "text": "Truth can only be found in one place: the code.",
+    "author": "Robert C. Martin"
+  },
+  {
+    "text": "Give someone a program, you frustrate them for a day; teach them how to program, you frustrate them for a lifetime.",
+    "author": "David Leinweber"
+  },
+  {
+    "text": "To iterate is human, to recurse divine.",
+    "author": "L. Peter Deutsch"
+  },
+  {
+    "text": "Computers are fast; developers keep it slow.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Software and cathedrals are much the same — first we build them, then we pray.",
+    "author": "Sam Redwine"
+  },
+  {
+    "text": "The most damaging phrase in the language is: It's always been done that way.",
+    "author": "Grace Hopper"
+  },
+  {
+    "text": "If you think good architecture is expensive, try bad architecture.",
+    "author": "Brian Foote"
+  },
+  {
+    "text": "There is no programming language, no matter how structured, that will prevent programmers from making bad programs.",
+    "author": "Larry Flon"
+  },
+  {
+    "text": "That's the thing about people who think they hate computers. What they really hate is lousy programmers.",
+    "author": "Larry Niven"
+  },
+  {
+    "text": "You are never too old to set another goal or to dream a new dream.",
+    "author": "C.S. Lewis"
+  },
+  {
+    "text": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "text": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller"
+  },
+  {
+    "text": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "text": "Everything is designed. Few things are designed well.",
+    "author": "Brian Reed"
+  },
+  {
+    "text": "Motivation is what gets you started. Habit is what keeps you going.",
+    "author": "Jim Ryun"
+  },
+  {
+    "text": "The only person you are destined to become is the person you decide to be.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "text": "We may encounter many defeats but we must not be defeated.",
+    "author": "Maya Angelou"
+  },
+  {
+    "text": "Quality is not an act, it is a habit.",
+    "author": "Aristotle"
+  },
+  {
+    "text": "Small deeds done are better than great deeds planned.",
+    "author": "Peter Marshall"
+  },
+  {
+    "text": "Do not wait to strike till the iron is hot, but make it hot by striking.",
+    "author": "William Butler Yeats"
+  },
+  {
+    "text": "Well done is better than well said.",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "text": "What you do today can improve all your tomorrows.",
+    "author": "Ralph Marston"
+  },
+  {
+    "text": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu"
+  },
+  {
+    "text": "That which does not kill us makes us stronger.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
+    "text": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius"
+  },
+  {
+    "text": "The unexamined life is not worth living.",
+    "author": "Socrates"
+  },
+  {
+    "text": "Turn your wounds into wisdom.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "text": "The best revenge is massive success.",
+    "author": "Frank Sinatra"
+  },
+  {
+    "text": "If you look at what you have in life, you'll always have more.",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "text": "Remember that not getting what you want is sometimes a wonderful stroke of luck.",
+    "author": "Dalai Lama"
+  },
+  {
+    "text": "Nothing is impossible, the word itself says I'm possible.",
+    "author": "Audrey Hepburn"
+  },
+  {
+    "text": "You only live once, but if you do it right, once is enough.",
+    "author": "Mae West"
+  },
+  {
+    "text": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    "author": "Albert Einstein"
+  },
+  {
+    "text": "Be the change that you wish to see in the world.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "text": "No one can make you feel inferior without your consent.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "text": "There is only one thing that makes a dream impossible to achieve: the fear of failure.",
+    "author": "Paulo Coelho"
+  },
+  {
+    "text": "It is during our darkest moments that we must focus to see the light.",
+    "author": "Aristotle"
+  },
+  {
+    "text": "The purpose of our lives is to be happy.",
+    "author": "Dalai Lama"
+  },
+  {
+    "text": "Get busy living or get busy dying.",
+    "author": "Stephen King"
+  },
+  {
+    "text": "You have within you right now, everything you need to deal with whatever the world throws at you.",
+    "author": "Brian Tracy"
+  },
+  {
+    "text": "Happiness is not something ready made. It comes from your own actions.",
+    "author": "Dalai Lama"
+  },
+  {
+    "text": "If you want to achieve greatness stop asking for permission.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Things work out best for those who make the best of how things work out.",
+    "author": "John Wooden"
+  },
+  {
+    "text": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "text": "Never let the fear of striking out keep you from playing the game.",
+    "author": "Babe Ruth"
+  },
+  {
+    "text": "Imagination is more important than knowledge.",
+    "author": "Albert Einstein"
+  },
+  {
+    "text": "Life is either a daring adventure or nothing at all.",
+    "author": "Helen Keller"
+  },
+  {
+    "text": "The only thing we have to fear is fear itself.",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "text": "It is never too late to be what you might have been.",
+    "author": "George Eliot"
+  },
+  {
+    "text": "If opportunity doesn't knock, build a door.",
+    "author": "Milton Berle"
+  },
+  {
+    "text": "Dream big and dare to fail.",
+    "author": "Norman Vaughan"
+  },
+  {
+    "text": "Our greatest weakness lies in giving up.",
+    "author": "Thomas Edison"
+  },
+  {
+    "text": "The harder the conflict, the more glorious the triumph.",
+    "author": "Thomas Paine"
+  },
+  {
+    "text": "If you can dream it, you can do it.",
+    "author": "Walt Disney"
+  },
+  {
+    "text": "Try not to become a person of success, but rather try to become a person of value.",
+    "author": "Albert Einstein"
+  },
+  {
+    "text": "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "text": "A ship in harbor is safe, but that is not what ships are built for.",
+    "author": "John A. Shedd"
+  },
+  {
+    "text": "Fall seven times, stand up eight.",
+    "author": "Japanese Proverb"
+  },
+  {
+    "text": "Everything has beauty, but not everyone sees it.",
+    "author": "Confucius"
+  },
+  {
+    "text": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates"
+  },
+  {
+    "text": "Knowing is not enough; we must apply. Willing is not enough; we must do.",
+    "author": "Johann Wolfgang von Goethe"
+  },
+  {
+    "text": "We become what we think about.",
+    "author": "Earl Nightingale"
+  },
+  {
+    "text": "The best preparation for tomorrow is doing your best today.",
+    "author": "H. Jackson Brown Jr."
+  },
+  {
+    "text": "An unexamined life is not worth living.",
+    "author": "Socrates"
+  },
+  {
+    "text": "Eighty percent of success is showing up.",
+    "author": "Woody Allen"
+  },
+  {
+    "text": "Your limitation is only your imagination.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Push yourself, because no one else is going to do it for you.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Great things never come from comfort zones.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Dream it. Wish it. Do it.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Success doesn't just find you. You have to go out and get it.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "The harder you work for something, the greater you'll feel when you achieve it.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Don't stop when you're tired. Stop when you're done.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Do something today that your future self will thank you for.",
+    "author": "Sean Patrick Flanery"
+  },
+  {
+    "text": "Little things make big days.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "It's going to be hard, but hard does not mean impossible.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Don't wait for opportunity. Create it.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Sometimes we're tested not to show our weaknesses, but to discover our strengths.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "The key to success is to focus on goals, not obstacles.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Dream bigger. Do bigger.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Software being Done is like lawn needing Mowed.",
+    "author": "Jim Benson"
+  },
+  {
+    "text": "Any code of your own that you haven't looked at for six or more months might as well have been written by someone else.",
+    "author": "Eagleson's Law"
+  },
+  {
+    "text": "The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent accounts for the other 90 percent.",
+    "author": "Tom Cargill"
+  },
+  {
+    "text": "It works on my machine.",
+    "author": "Every Developer"
+  },
+  {
+    "text": "In theory, there is no difference between theory and practice. But in practice, there is.",
+    "author": "Jan L.A. van de Snepscheut"
+  },
+  {
+    "text": "Computers do what you tell them, not what you want them to do.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.",
+    "author": "Patrick McKenzie"
+  },
+  {
+    "text": "The value of a prototype is in the education it gives you, not in the code itself.",
+    "author": "Alan Cooper"
+  },
+  {
+    "text": "The cheapest, fastest, and most reliable components are those that aren't there.",
+    "author": "Gordon Bell"
+  },
+  {
+    "text": "Code never lies, comments sometimes do.",
+    "author": "Ron Jeffries"
+  },
+  {
+    "text": "Simplicity carried to the extreme becomes elegance.",
+    "author": "Jon Franklin"
+  },
+  {
+    "text": "The art of programming is the art of organizing complexity.",
+    "author": "Edsger Dijkstra"
+  },
+  {
+    "text": "A good programmer is someone who always looks both ways before crossing a one-way street.",
+    "author": "Doug Linder"
+  },
+  {
+    "text": "Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live.",
+    "author": "John Woods"
+  },
+  {
+    "text": "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to produce bigger and better idiots.",
+    "author": "Rick Cook"
+  },
+  {
+    "text": "Copy-and-paste is a design error.",
+    "author": "David Parnas"
+  },
+  {
+    "text": "Controlling complexity is the essence of computer programming.",
+    "author": "Brian Kernighan"
+  },
+  {
+    "text": "The trouble with programmers is that you can never tell what a programmer is doing until it's too late.",
+    "author": "Seymour Cray"
+  },
+  {
+    "text": "Most of you are familiar with the virtues of a programmer. There are three, of course: laziness, impatience, and hubris.",
+    "author": "Larry Wall"
+  },
+  {
+    "text": "Developer testing is an important step towards accountability.",
+    "author": "Kent Beck"
+  },
+  {
+    "text": "Incorrect documentation is often worse than no documentation.",
+    "author": "Bertrand Meyer"
+  },
+  {
+    "text": "On two occasions I have been asked, if the machine is unable to solve the problem, does that mean the problem is unsolvable? Of course not.",
+    "author": "Charles Babbage"
+  },
+  {
+    "text": "You can't trust code that you did not totally create yourself.",
+    "author": "Ken Thompson"
+  },
+  {
+    "text": "Design is not just what it looks like and feels like. Design is how it works.",
+    "author": "Steve Jobs"
+  },
+  {
+    "text": "Everybody should learn to program a computer because it teaches you how to think.",
+    "author": "Steve Jobs"
+  },
+  {
+    "text": "Learning to write programs stretches your mind and helps you think better.",
+    "author": "Bill Gates"
+  },
+  {
+    "text": "The best programmers are not marginally better than merely good ones. They are an order-of-magnitude better.",
+    "author": "Randall E. Stross"
+  },
+  {
+    "text": "Computers are good at following instructions, but not at reading your mind.",
+    "author": "Donald Knuth"
+  },
+  {
+    "text": "If you automate a mess, you get an automated mess.",
+    "author": "Rod Michael"
+  },
+  {
+    "text": "Fast, good, cheap: pick any two.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "The sooner you start to code, the longer the program will take.",
+    "author": "Roy Carlson"
+  },
+  {
+    "text": "Technology is best when it brings people together.",
+    "author": "Matt Mullenweg"
+  },
+  {
+    "text": "The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past.",
+    "author": "Tim Berners-Lee"
+  },
+  {
+    "text": "The science of today is the technology of tomorrow.",
+    "author": "Edward Teller"
+  },
+  {
+    "text": "Once a new technology rolls over you, if you're not part of the steamroller, you're part of the road.",
+    "author": "Stewart Brand"
+  },
+  {
+    "text": "Any sufficiently advanced technology is indistinguishable from magic.",
+    "author": "Arthur C. Clarke"
+  },
+  {
+    "text": "Technology like art is a soaring exercise of the human imagination.",
+    "author": "Daniel Bell"
+  },
+  {
+    "text": "All of the biggest technological inventions created by man — the airplane, the automobile, the computer — say little about his intelligence, but speak volumes about his laziness.",
+    "author": "Mark Kennedy"
+  }
+]
