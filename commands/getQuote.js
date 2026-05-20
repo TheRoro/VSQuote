@@ -7,7 +7,9 @@ const philosophicalQuotes = require('../quotes/philosophical.json')
 const affirmationQuotes = require('../quotes/affirmations.json')
 const genzQuotes = require('../quotes/genz.json')
 
-let statusBarItem
+const DEFAULT_MODE = 'genz'
+const DEFAULT_INTERVAL_MINUTES = 60
+const ALLOWED_INTERVALS = new Set([30, 60, 120, 360, 720, 1440])
 
 const quotePools = {
   inspirational: inspirationalQuotes,
@@ -19,124 +21,145 @@ const quotePools = {
   genz: genzQuotes,
 }
 
-function randomNumber(max) {
-  return Math.floor(Math.random() * max);
+function parseIntervalMinutes(value) {
+  const minutes = Number(value)
+  return Number.isInteger(minutes) && ALLOWED_INTERVALS.has(minutes)
+    ? minutes
+    : DEFAULT_INTERVAL_MINUTES
 }
 
-function returnQuote() {
-  const config = vscode.workspace.getConfiguration('vsquote')
-  const mode = config.get('mode', 'genz')
+function createQuoteManager(
+  vscodeApi = vscode,
+  timers = {
+    setInterval: global.setInterval,
+    clearInterval: global.clearInterval,
+  },
+) {
+  let statusBarItem
+  let interval
+  let configurationSubscription
 
-  let pool
-  if (mode === 'all') {
-    pool = Object.values(quotePools).flat()
-  } else {
-    pool = quotePools[mode] || funnyQuotes
+  function getConfiguration() {
+    return vscodeApi.workspace.getConfiguration('vsquote')
   }
 
-  const index = randomNumber(pool.length)
-  return pool[index]
-}
+  function isEnabled() {
+    return getConfiguration().get('enabled', true)
+  }
 
-function showQuoteInStatusBar(quote) {
-  if (!statusBarItem) {
-    statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100)
-    statusBarItem.command = 'vsquote.getQuote'
+  function getPool() {
+    const mode = getConfiguration().get('mode', DEFAULT_MODE)
+    return mode === 'all'
+      ? Object.values(quotePools).flat()
+      : quotePools[mode] || quotePools[DEFAULT_MODE]
+  }
+
+  function returnQuote(random = Math.random) {
+    const pool = getPool()
+    return pool[Math.floor(random() * pool.length)]
+  }
+
+  function showQuoteInStatusBar(quote) {
+    if (!statusBarItem) {
+      statusBarItem = vscodeApi.window.createStatusBarItem(
+        vscodeApi.StatusBarAlignment.Right,
+        100,
+      )
+      statusBarItem.command = 'vsquote.getQuote'
+    }
+
+    const maxLength = 50
+    const shortText = quote.text.length > maxLength
+      ? `${quote.text.substring(0, maxLength)}...`
+      : quote.text
+
+    statusBarItem.text = `$(quote) ${shortText}`
+    statusBarItem.tooltip = `"${quote.text}"\n— ${quote.author}`
     statusBarItem.show()
   }
 
-  // Truncate for status bar display, show full on hover
-  const maxLength = 50
-  const shortText = quote.text.length > maxLength
-    ? quote.text.substring(0, maxLength) + '...'
-    : quote.text
-
-  statusBarItem.text = `$(quote) ${shortText}`
-  statusBarItem.tooltip = `"${quote.text}"\n— ${quote.author}`
-}
-
-function sendQuote(quote) {
-  vscode.window.showInformationMessage(
-    `"${quote.text}" - ${quote.author}`, "Another"
-  ).then(selection => {
-    if (selection === "Another") {
-      const newQuote = returnQuote()
-      sendQuote(newQuote)
-      showQuoteInStatusBar(newQuote)
+  function showNextQuote() {
+    if (isEnabled()) {
+      showQuoteInStatusBar(returnQuote())
     }
-  })
-}
-
-function isEnabled() {
-  return vscode.workspace.getConfiguration('vsquote').get('enabled', true)
-}
-
-function hideStatusBar() {
-  if (statusBarItem) {
-    statusBarItem.hide()
   }
-}
 
-const startIntervalQuotes = () => {
-  const config = vscode.workspace.getConfiguration('vsquote')
-  const intervalMinutes = parseInt(config.get('interval', '60'))
-  const ms = 1000 * 60 * intervalMinutes
+  function hideStatusBar() {
+    statusBarItem?.hide()
+  }
 
-  // Show a quote immediately on startup (if enabled)
-  if (isEnabled()) {
+  function restartInterval() {
+    if (interval) timers.clearInterval(interval)
+    const minutes = parseIntervalMinutes(getConfiguration().get('interval', String(DEFAULT_INTERVAL_MINUTES)))
+    interval = timers.setInterval(showNextQuote, minutes * 60 * 1000)
+  }
+
+  function sendQuote(quote) {
+    return vscodeApi.window.showInformationMessage(
+      `"${quote.text}" - ${quote.author}`,
+      'Another',
+    ).then(selection => {
+      if (selection === 'Another') {
+        const nextQuote = returnQuote()
+        showQuoteInStatusBar(nextQuote)
+        return sendQuote(nextQuote)
+      }
+      return undefined
+    })
+  }
+
+  function getQuote() {
+    if (!isEnabled()) {
+      return vscodeApi.window.showInformationMessage('VSQuote is disabled. Enable it in settings.')
+    }
+
     const quote = returnQuote()
     showQuoteInStatusBar(quote)
+    return sendQuote(quote)
   }
 
-  let timer = setInterval(() => {
-    if (isEnabled()) {
-      const quote = returnQuote()
-      showQuoteInStatusBar(quote)
-    }
-  }, ms)
+  function start() {
+    if (configurationSubscription) return { dispose }
 
-  // Re-create interval if settings change
-  vscode.workspace.onDidChangeConfiguration(e => {
-    if (e.affectsConfiguration('vsquote.enabled')) {
-      if (isEnabled()) {
-        const quote = returnQuote()
-        showQuoteInStatusBar(quote)
-      } else {
-        hideStatusBar()
+    showNextQuote()
+    restartInterval()
+    configurationSubscription = vscodeApi.workspace.onDidChangeConfiguration(event => {
+      if (event.affectsConfiguration('vsquote.enabled')) {
+        if (isEnabled()) showNextQuote()
+        else hideStatusBar()
       }
-    }
-    if (e.affectsConfiguration('vsquote.interval')) {
-      clearInterval(timer)
-      const newMinutes = parseInt(vscode.workspace.getConfiguration('vsquote').get('interval', '60'))
-      const newMs = 1000 * 60 * newMinutes
-      timer = setInterval(() => {
-        if (isEnabled()) {
-          const quote = returnQuote()
-          showQuoteInStatusBar(quote)
-        }
-      }, newMs)
-    }
-    if (e.affectsConfiguration('vsquote.mode')) {
-      if (isEnabled()) {
-        const quote = returnQuote()
-        showQuoteInStatusBar(quote)
-      }
-    }
-  })
-}
+      if (event.affectsConfiguration('vsquote.interval')) restartInterval()
+      if (event.affectsConfiguration('vsquote.mode')) showNextQuote()
+    })
 
-const getQuote = () => {
-  if (!isEnabled()) {
-    vscode.window.showInformationMessage('VSQuote is disabled. Enable it in settings.')
-    return
+    return { dispose }
   }
-  const quote = returnQuote()
-  sendQuote(quote)
-  showQuoteInStatusBar(quote)
+
+  function dispose() {
+    if (interval) {
+      timers.clearInterval(interval)
+      interval = undefined
+    }
+    configurationSubscription?.dispose()
+    configurationSubscription = undefined
+    statusBarItem?.dispose()
+    statusBarItem = undefined
+  }
+
+  return {
+    dispose,
+    getQuote,
+    getStatusBarItem: () => statusBarItem,
+    returnQuote,
+    start,
+  }
 }
 
-const getStatusBarItem = () => statusBarItem
+const quoteManager = createQuoteManager()
 
-exports.startIntervalQuotes = startIntervalQuotes
-exports.getQuote = getQuote
-exports.getStatusBarItem = getStatusBarItem
+exports.startIntervalQuotes = () => quoteManager.start()
+exports.getQuote = () => quoteManager.getQuote()
+exports.getStatusBarItem = () => quoteManager.getStatusBarItem()
+exports.dispose = () => quoteManager.dispose()
+exports.createQuoteManager = createQuoteManager
+exports.parseIntervalMinutes = parseIntervalMinutes

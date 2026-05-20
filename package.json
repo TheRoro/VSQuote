@@ -83,7 +83,8 @@
 	},
 	"scripts": {
 		"lint": "eslint .",
-		"pretest": "npm run lint",
+		"validate:quotes": "node ./scripts/validateQuotes.js",
+		"pretest": "npm run lint && npm run validate:quotes",
 		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
@@ -91,5 +92,9 @@
 		"@types/vscode": "^1.74.0",
 		"eslint": "^8.56.0",
 		"@vscode/test-electron": "^2.3.8"
+	},
+	"overrides": {
+		"brace-expansion": "^1.1.18",
+		"js-yaml": "^4.3.1"
 	}
 }

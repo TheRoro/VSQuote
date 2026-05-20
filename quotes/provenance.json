@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-08-20",
+  "policy": "README.md",
+  "collections": [
+    {
+      "file": "affirmations.json",
+      "expectedCount": 135,
+      "sourceStatus": "VSQuote originals"
+    },
+    {
+      "file": "funny.json",
+      "expectedCount": 172,
+      "sourceStatus": "Mixed VSQuote originals and legacy attributed quotations"
+    },
+    {
+      "file": "genz.json",
+      "expectedCount": 193,
+      "sourceStatus": "VSQuote originals"
+    },
+    {
+      "file": "hype.json",
+      "expectedCount": 82,
+      "sourceStatus": "VSQuote originals"
+    },
+    {
+      "file": "inspirational.json",
+      "expectedCount": 199,
+      "sourceStatus": "Legacy attributed quotations"
+    },
+    {
+      "file": "philosophical.json",
+      "expectedCount": 151,
+      "sourceStatus": "Mixed attributed quotations and labeled thought experiments"
+    },
+    {
+      "file": "stoic.json",
+      "expectedCount": 164,
+      "sourceStatus": "Legacy attributed quotations and paraphrases"
+    }
+  ]
+}
