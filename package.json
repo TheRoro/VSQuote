@@ -8,7 +8,8 @@
 	"repository": "https://github.com/TheRoro/VSQuote",
 	"version": "3.0.0",
 	"engines": {
-		"vscode": "^1.74.0"
+		"node": ">=20.19",
+		"vscode": "^1.120.0"
 	},
 	"categories": [
 		"Other"
@@ -82,16 +83,27 @@
 		}
 	},
 	"scripts": {
+		"check-types": "tsc --project jsconfig.json",
+		"check-version": "node ./scripts/checkVersion.js",
+		"inspect:package": "vsce ls --tree",
 		"lint": "eslint .",
+		"package": "vsce package --out vsquote.vsix",
+		"validate": "npm run lint && npm run check-types && npm run validate:quotes && npm run check-version",
 		"validate:quotes": "node ./scripts/validateQuotes.js",
-		"pretest": "npm run lint && npm run validate:quotes",
-		"test": "node ./test/runTest.js"
+		"vscode:prepublish": "npm run validate",
+		"pretest": "npm run validate",
+		"test": "node ./test/runTest.js",
+		"publish:marketplace": "vsce publish --packagePath vsquote.vsix"
 	},
 	"devDependencies": {
-		"@types/node": "18.x",
-		"@types/vscode": "^1.74.0",
-		"eslint": "^8.56.0",
-		"@vscode/test-electron": "^2.3.8"
+		"@eslint/js": "^10.0.1",
+		"@types/node": "^22.0.0",
+		"@types/vscode": "^1.120.0",
+		"@vscode/test-electron": "^2.5.2",
+		"@vscode/vsce": "^3.9.2",
+		"eslint": "^10.8.1",
+		"globals": "^17.11.0",
+		"typescript": "^5.9.3"
 	},
 	"overrides": {
 		"brace-expansion": "^1.1.18",

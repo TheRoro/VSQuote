@@ -1,0 +1,31 @@
+name: Publish
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+jobs:
+  marketplace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: marketplace
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: xvfb-run --auto-servernum npm test
+      - run: npm run inspect:package
+      - run: npm run package
+      - run: npm run publish:marketplace
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}

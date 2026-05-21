@@ -56,6 +56,28 @@ Or add these directly to your `settings.json`:
 
 Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=RodrigoRamirez.vsquote)
 
+## Development and releases
+
+VSQuote requires Node.js 20.19 or newer for local tooling:
+
+```bash
+npm install
+npm test
+npm run inspect:package
+npm run package
+```
+
+Pull requests and pushes to `main` run linting, JavaScript type checking,
+extension-host tests, quote-corpus validation, version checks, and VSIX
+packaging. The packaged extension is uploaded as a workflow artifact.
+
+Marketplace releases are tag-driven. Update the version in `package.json` and
+`package-lock.json`, add the matching `CHANGELOG.md` heading, then push a tag
+such as `v3.0.1`. The `marketplace` GitHub environment must contain a
+`VSCE_PAT` secret authorized for the `RodrigoRamirez` Marketplace publisher.
+The workflow rejects tags that do not match the package version and publishes
+the exact VSIX it validated.
+
 ## Release Notes
 
 ### 3.0.0

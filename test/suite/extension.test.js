@@ -42,6 +42,7 @@ function createFakeVscode(settings = {}) {
 	}
 }
 
+/** @type {Array<[string, () => void | Promise<void>]>} */
 const tests = [
 	['activates and registers its command', async () => {
 		const extension = vscode.extensions.getExtension('RodrigoRamirez.vsquote')

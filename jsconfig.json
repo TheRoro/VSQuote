@@ -1,13 +1,30 @@
 {
 	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"maxNodeModuleJsDepth": 0,
 		"module": "commonjs",
-		"target": "es6",
-		"checkJs": false,
+		"moduleResolution": "node",
+		"noEmit": true,
+		"resolveJsonModule": true,
+		"target": "es2022",
 		"lib": [
-			"es6"
+			"es2022"
+		],
+		"types": [
+			"node",
+			"vscode"
 		]
 	},
 	"exclude": [
-		"node_modules"
+		"artifacts",
+		"node_modules",
+		".vscode-test"
+	],
+	"include": [
+		"commands/**/*.js",
+		"extension.js",
+		"scripts/**/*.js",
+		"test/**/*.js"
 	]
 }

@@ -11,6 +11,47 @@ const DEFAULT_MODE = 'genz'
 const DEFAULT_INTERVAL_MINUTES = 60
 const ALLOWED_INTERVALS = new Set([30, 60, 120, 360, 720, 1440])
 
+/**
+ * @typedef {{
+ *   get: (key: string, fallback: unknown) => unknown
+ * }} QuoteConfiguration
+ *
+ * @typedef {{
+ *   affectsConfiguration: (section: string) => boolean
+ * }} ConfigurationEvent
+ *
+ * @typedef {{
+ *   command?: string,
+ *   text?: string,
+ *   tooltip?: string,
+ *   show: () => void,
+ *   hide: () => void,
+ *   dispose: () => void
+ * }} QuoteStatusBarItem
+ *
+ * @typedef {{
+ *   StatusBarAlignment: { Right: number },
+ *   workspace: {
+ *     getConfiguration: (section: string) => QuoteConfiguration,
+ *     onDidChangeConfiguration: (
+ *       listener: (event: ConfigurationEvent) => void
+ *     ) => { dispose: () => void }
+ *   },
+ *   window: {
+ *     createStatusBarItem: (alignment: number, priority: number) => QuoteStatusBarItem,
+ *     showInformationMessage: (
+ *       message: string,
+ *       ...items: string[]
+ *     ) => PromiseLike<string | undefined>
+ *   }
+ * }} QuoteVscodeApi
+ *
+ * @typedef {{
+ *   setInterval: (callback: () => void, delay: number) => unknown,
+ *   clearInterval: (interval: unknown) => void
+ * }} TimerApi
+ */
+
 const quotePools = {
   inspirational: inspirationalQuotes,
   funny: funnyQuotes,
@@ -28,11 +69,17 @@ function parseIntervalMinutes(value) {
     : DEFAULT_INTERVAL_MINUTES
 }
 
+/**
+ * @param {QuoteVscodeApi} [vscodeApi]
+ * @param {TimerApi} [timers]
+ */
 function createQuoteManager(
-  vscodeApi = vscode,
+  vscodeApi = /** @type {QuoteVscodeApi} */ (vscode),
   timers = {
-    setInterval: global.setInterval,
-    clearInterval: global.clearInterval,
+    setInterval: (callback, delay) => global.setInterval(callback, delay),
+    clearInterval: interval => global.clearInterval(
+      /** @type {NodeJS.Timeout} */ (interval),
+    ),
   },
 ) {
   let statusBarItem
@@ -48,7 +95,7 @@ function createQuoteManager(
   }
 
   function getPool() {
-    const mode = getConfiguration().get('mode', DEFAULT_MODE)
+    const mode = String(getConfiguration().get('mode', DEFAULT_MODE))
     return mode === 'all'
       ? Object.values(quotePools).flat()
       : quotePools[mode] || quotePools[DEFAULT_MODE]

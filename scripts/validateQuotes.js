@@ -6,6 +6,8 @@ const provenance = JSON.parse(
   fs.readFileSync(path.join(quotesDirectory, 'provenance.json'), 'utf8'),
 )
 const malformedText = /\b(?:won|can|couldn|wouldn|shouldn|isn|aren|wasn|weren|doesn|didn|hasn|haven|hadn) not\b/i
+// Control-character detection is intentional for corpus validation.
+// eslint-disable-next-line no-control-regex
 const unsafeCharacters = /[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f\ufffd]/
 const seen = new Map()
 const errors = []

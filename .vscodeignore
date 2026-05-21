@@ -1,9 +1,15 @@
 .vscode/**
+.github/**
 .vscode-test/**
+artifacts/**
+scripts/**
 test/**
 .gitignore
+package-lock.json
+quotes/README.md
+quotes/provenance.json
 .yarnrc
 vsc-extension-quickstart.md
 **/jsconfig.json
+eslint.config.js
 **/*.map
-**/.eslintrc.json
