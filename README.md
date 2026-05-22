@@ -4,15 +4,20 @@
 
 VSQuote is a VS Code extension that delivers quotes straight to your status bar while you code. Whether you need chaotic Gen Z energy, stoic wisdom, aggressive hype, or existential philosophy, VSQuote has a mode for your mood.
 
+![VSQuote showing a compact quote in the status bar](images/status-bar.png)
+
 ## Features
 
-- **Status Bar Quotes:** A rotating quote lives in your status bar, subtle, always there, never intrusive.
+- **Compact Status Bar Quotes:** Choose how much text appears while the full quote remains available in the tooltip and accessible label.
 - **Multiple Modes:** Choose your vibe: Gen Z, Funny, Hype, Inspirational, Stoic, Philosophical, Affirmations, or all of them at once.
 - **Configurable Interval:** Get a new quote every 30 min, 1 hour, 2 hours, or up to 24 hours.
-- **On-Demand:** Click the status bar or run `Get Quote` for an instant hit.
+- **No Immediate Repeats:** Recently displayed quotes are skipped automatically.
+- **Favorites and History:** Save favorites across sessions or revisit the last 20 quotes from the current session.
+- **Copy Anywhere:** Copy the current quote, or select one from favorites or history.
+- **First-Run Vibe Picker:** Choose a starting mode or dismiss it and keep the default.
 - **Offline:** All 1000+ quotes are bundled locally. No internet needed.
 
-![VSQuote Quote Example](https://raw.githubusercontent.com/TheRoro/VSQuote/main/images/QuoteExample.png)
+![Switching between VSQuote modes](images/mode-switch.gif)
 
 ## Modes
 
@@ -33,7 +38,10 @@ Open Settings (`Ctrl+,`) and search "VSQuote":
 
 - **Mode** — Choose your quote category (default: Gen Z)
 - **Interval** — How often quotes rotate (default: every hour)
+- **Status Bar Max Length** — Show 12–80 characters (default: 32)
 - **Enabled** — Toggle quotes on/off without uninstalling
+
+![VSQuote settings](images/settings.png)
 
 ### How to Change Settings
 
@@ -48,13 +56,38 @@ Or add these directly to your `settings.json`:
 {
   "vsquote.mode": "genz",
   "vsquote.interval": "60",
+  "vsquote.statusBarMaxLength": 32,
   "vsquote.enabled": true
 }
 ```
 
+## Commands
+
+Open the Command Palette and search for **VSQuote**:
+
+| Command | What it does |
+|---|---|
+| **VSQuote: Get Quote** | Shows another non-repeating quote |
+| **VSQuote: Copy Current Quote** | Copies the current quote and attribution |
+| **VSQuote: Favorite or Unfavorite Current Quote** | Toggles the current favorite |
+| **VSQuote: Show Favorites** | Selects and copies a saved favorite |
+| **VSQuote: Show Quote History** | Selects and copies a recent session quote |
+| **VSQuote: Choose Vibe** | Changes the active quote mode |
+
 ## Installation
 
 Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=RodrigoRamirez.vsquote)
+
+## Privacy and license
+
+VSQuote is free, runs offline, and collects no telemetry. It never reads or
+writes workspace files. Recent history stays in memory; favorites and the
+first-run flag use VS Code extension global state. See the full
+[privacy statement](PRIVACY.md).
+
+The extension software and VSQuote-authored material are available under the
+[MIT License](LICENSE). Third-party quotations retain their respective rights;
+see the [quote corpus policy](quotes/README.md).
 
 ## Development and releases
 

@@ -1,23 +1,38 @@
 const vscode = require('vscode')
 const Quotes = require('./commands/getQuote')
 
+let quoteManager
+
 /**
  * @param {vscode.ExtensionContext} context
  */
 function activate(context) {
 	console.log('VSQuote is active...')
-	const quoteManager = Quotes.startIntervalQuotes()
+	quoteManager = Quotes.createQuoteManager(undefined, undefined, {
+		get: (key, fallback) => context.globalState.get(key, fallback),
+		update: (key, value) => context.globalState.update(key, value),
+	})
 
-	const command = vscode.commands.registerCommand(
-		'vsquote.getQuote', function () {
-			Quotes.getQuote()
-		})
+	/** @type {Array<[string, () => unknown]>} */
+	const commandDefinitions = [
+		['vsquote.getQuote', () => quoteManager.getQuote()],
+		['vsquote.copyQuote', () => quoteManager.copyCurrentQuote()],
+		['vsquote.toggleFavorite', () => quoteManager.toggleFavorite()],
+		['vsquote.showFavorites', () => quoteManager.showFavorites()],
+		['vsquote.showHistory', () => quoteManager.showHistory()],
+		['vsquote.chooseMode', () => quoteManager.chooseMode()],
+	]
+	const commands = commandDefinitions.map(
+		([command, handler]) => vscode.commands.registerCommand(command, handler),
+	)
 
-	context.subscriptions.push(command, quoteManager)
+	context.subscriptions.push(...commands, quoteManager.start())
+	void quoteManager.offerFirstRunMode()
 }
 
 function deactivate() {
-	Quotes.dispose()
+	quoteManager?.dispose()
+	quoteManager = undefined
 }
 
 module.exports = {

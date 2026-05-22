@@ -5,15 +5,43 @@
 	"publisher": "RodrigoRamirez",
 	"description": "Unhinged quotes for your coding sessions. Motivational, funny, or chaotic — you choose the vibe.",
 	"icon": "images/VsQuoteIcon.png",
-	"repository": "https://github.com/TheRoro/VSQuote",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TheRoro/VSQuote.git"
+	},
+	"homepage": "https://github.com/TheRoro/VSQuote#readme",
+	"bugs": {
+		"url": "https://github.com/TheRoro/VSQuote/issues"
+	},
+	"license": "MIT",
+	"pricing": "Free",
+	"keywords": [
+		"quotes",
+		"motivation",
+		"productivity",
+		"status bar",
+		"offline",
+		"developer",
+		"focus",
+		"affirmations"
+	],
 	"version": "3.0.0",
 	"engines": {
 		"node": ">=20.19",
 		"vscode": "^1.120.0"
 	},
 	"categories": [
-		"Other"
+		"Other",
+		"Education"
 	],
+	"extensionKind": [
+		"ui"
+	],
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
 	"activationEvents": [
 		"onStartupFinished"
 	],
@@ -22,7 +50,33 @@
 		"commands": [
 			{
 				"command": "vsquote.getQuote",
-				"title": "Get Quote"
+				"title": "Get Quote",
+				"category": "VSQuote"
+			},
+			{
+				"command": "vsquote.copyQuote",
+				"title": "Copy Current Quote",
+				"category": "VSQuote"
+			},
+			{
+				"command": "vsquote.toggleFavorite",
+				"title": "Favorite or Unfavorite Current Quote",
+				"category": "VSQuote"
+			},
+			{
+				"command": "vsquote.showFavorites",
+				"title": "Show Favorites",
+				"category": "VSQuote"
+			},
+			{
+				"command": "vsquote.showHistory",
+				"title": "Show Quote History",
+				"category": "VSQuote"
+			},
+			{
+				"command": "vsquote.chooseMode",
+				"title": "Choose Vibe",
+				"category": "VSQuote"
 			}
 		],
 		"configuration": {
@@ -78,6 +132,13 @@
 						"All (Random Mix)"
 					],
 					"description": "The type of quotes to display."
+				},
+				"vsquote.statusBarMaxLength": {
+					"type": "integer",
+					"default": 32,
+					"minimum": 12,
+					"maximum": 80,
+					"description": "Maximum number of quote characters shown in the status bar. The full quote remains available in its tooltip and accessible label."
 				}
 			}
 		}
