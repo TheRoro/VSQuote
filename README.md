@@ -113,6 +113,17 @@ the exact VSIX it validated.
 
 ## Release Notes
 
+### 3.1.0
+- Added favorites, session history, clipboard commands, and recent-quote suppression
+- Added an optional first-run vibe selector and configurable compact status-bar text
+- Added accessible status-bar labels and six searchable VSQuote commands
+- Replaced outdated screenshots and added an animated mode-switch preview
+- Added privacy, quote provenance, corpus validation, and dependency hardening
+- Expanded extension-host tests and JavaScript type checking
+- Modernized ESLint, VS Code types, packaging, and release tooling
+- Added CI validation and tag-driven Visual Studio Marketplace publishing
+- Corrected malformed quotes, removed duplicates, and fixed resource disposal
+
 ### 3.0.0
 - Replaced external API with 1000+ local curated quotes
 - Added 7 quote modes (Gen Z, Funny, Hype, Stoic, Philosophical, Affirmations, Inspirational)
