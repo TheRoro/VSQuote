@@ -25,7 +25,7 @@
 		"focus",
 		"affirmations"
 	],
-	"version": "3.0.0",
+	"version": "3.1.0",
 	"engines": {
 		"node": ">=20.19",
 		"vscode": "^1.120.0"

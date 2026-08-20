@@ -1,5 +1,19 @@
 # Change Log
 
+## ⚡️ 3.1.0 ⚡️
+
+### 💡 Changes included in this release:
+
+⭐ Favorites, session history, clipboard commands, and recent-quote suppression
+🎛️ Optional first-run vibe selector and configurable compact status-bar text
+♿ Accessible status-bar labels and six searchable VSQuote commands
+🖼️ Current Marketplace screenshots and an animated mode-switch preview
+🔒 Privacy, quote provenance, corpus validation, and dependency hardening
+🧪 Expanded extension-host tests and JavaScript type checking
+🛠️ Modernized ESLint, VS Code types, packaging, and release tooling
+🚀 CI validation and tag-driven Visual Studio Marketplace publishing
+🧹 Corrected malformed quotes, removed duplicates, and fixed resource disposal
+
 ## ⚡️ 3.0.0 ⚡️
 
 ### 💡 Changes included in this release:
